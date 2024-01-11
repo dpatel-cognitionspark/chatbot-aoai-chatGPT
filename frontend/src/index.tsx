@@ -17,7 +17,7 @@ export default function App() {
         <AppStateProvider>
             <HashRouter>
                 <Routes>
-                    <Route path="/" element={<div/>}>
+                    <Route path="/" element={<Layout />}>
                         <Route index element={<Chat />} />
                         <Route path="*" element={<NoPage />} />
                     </Route>
