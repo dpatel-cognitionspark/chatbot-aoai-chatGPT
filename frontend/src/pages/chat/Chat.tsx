@@ -586,7 +586,7 @@ const Chat = () => {
                         {!messages || messages.length < 1 ? (
                         
                         <Stack className={styles.chatEmptyState}>
-                        <h1 className={styles.chatEmptyStateTitle}>AI powered conversational assistant</h1>
+                        <h2 className={styles.chatEmptyStateTitle}>AI powered conversational assistant</h2>
 
                     </Stack>
                    

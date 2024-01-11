@@ -132,14 +132,13 @@
 
 .chatInput {
     position: sticky;
-    flex: 0 0 100px;
+    flex: 0 0 70px;
     padding-top: 12px;
     padding-bottom: 24px;
     padding-left: 24px;
     padding-right: 24px;
     width: 90%;
     max-width: 1028px;
-    margin-bottom: 50px;
     margin-top: 8px;
 }
 
