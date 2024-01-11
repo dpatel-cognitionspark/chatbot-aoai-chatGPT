@@ -583,7 +583,7 @@ const Chat = () => {
             ) : (
                 <Stack horizontal className={styles.chatRoot}>
                     <div className={styles.chatContainer}>
-                        {!messages || messages.length < 1 ? ('') : (
+                        {!messages || messages.length < 1 ? ('AI powered conversational assistant') : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px" }} role="log">
                                 {messages.map((answer, index) => (
                                     <>
