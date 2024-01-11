@@ -583,11 +583,7 @@ const Chat = () => {
             ) : (
                 <Stack horizontal className={styles.chatRoot}>
                     <div className={styles.chatContainer}>
-                        {!messages || messages.length < 1 ? (
-                            <Stack className={styles.chatEmptyState}>
-                            Chat
-                               </Stack>
-                        ) : (
+                        {!messages || messages.length < 1 ? ('') : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px" }} role="log">
                                 {messages.map((answer, index) => (
                                     <>
