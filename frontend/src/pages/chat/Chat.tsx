@@ -587,7 +587,7 @@ const Chat = () => {
                         
                         <Stack className={styles.chatEmptyState}>
                         <h2 className={styles.chatEmptyStateSubTitle}>AI powered</h2>
-                        <h2 className={styles.chatEmptyStateSubTitle}>conversational assistant</h2>
+                        <h2 className={styles.chatEmptyStateSubTitle}>Assistant</h2>
 
                     </Stack>
                    
